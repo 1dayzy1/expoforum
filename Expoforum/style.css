@@ -1,12 +1,20 @@
 body{
     margin: 0;
+    padding: 0;
+    
 }
 .test{
-    background-image: url(/image/bgc.jpg);
-    height: 800px;
+    background-image: url(image/bgc.jpg);
+    min-height: 800px;
     width: 100%;
- 
+
 }
+
+
+
+
+
+
 .logo{
     width: 100px;
     margin-top: 20px;
@@ -26,6 +34,7 @@ body{
 }
 a{
     text-decoration: none;
+    color:white
 }
 .search{
     display: flex;
@@ -33,20 +42,26 @@ a{
     margin-right: 120px;
 }
 .logo__search{
-    height: 17.73px;
-    width: 20px;
     margin-top: 20px;
     margin-right: 75px;
+    margin-left: 5px;
 }
 .logo__globe{
     height: 17.73px;
     width: 20px;
     margin-top: 20px;
+    margin-right: 3px;
 }
 
 .name__search{
     color:white;
 }
+
+.name__expo{
+    font-size: 60px;
+}
+
+
 .container__expo{
     display: flex;
     
@@ -59,8 +74,8 @@ a{
 .expo{
     padding-left: 50px;
     padding-top: 50px;
-    width: 50%;
-    box-sizing: border-box;
+    width: 25%;
+    margin-left: 200px;
     
 }
 .about{
@@ -68,50 +83,110 @@ a{
     margin-right: 15px;
     font-size: 44px; 
 }
-.page__text{
-    margin-bottom: 40px;
-}
+
 
 .logo__line{
     width: 16px;
     height: 10px;
-}
-.right-block{
-   
-    width: 50%;
-    box-sizing: border-box;
-}
-.card-container{
-    display: flex;
-    align-items: center;
-    box-sizing: border-box;
-}
-.card{
-    width: 255px;
-    height: 148px;
-    background-color: aqua;
-    margin-top: 300px;
-    margin-right: 15px;
-    margin-left: 120px;
-}
-.card2{
-    width: 255px;
-    height: 148px;
-    background-color: rgb(33, 179, 179);
-    margin-top: 300px;
-    
-}
-.card3{
-    width: 255px;
-    height: 148px;
-    background-color: aqua;
-    margin-top: 650px;
-    margin-right: 15px;
+    margin-bottom: 5px;
 }
 
-.card4{
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 530px;
+    margin-top: 450px;
+    margin-left: 100px;
+
+}
+.card {
     width: 255px;
     height: 148px;
-    background-color: rgb(33, 179, 179);
-    margin-top: 650px;
+    background-color: #2378FC;
+    margin-right: 20px;
+    
 }
+.card2 {
+    width: 255px;
+    height: 148px;
+    background-color: #30BCC9;
+    margin: 0;
+}
+.card3 {
+    width: 255px;
+    height: 148px;
+    background-color: #FFC41E;
+    margin-right: 20px;
+    margin-top: 20px;
+
+    
+}
+.card4 {
+    width: 255px;
+    height: 148px;
+    background-color: #F6404F;
+    margin-top: 20px;
+    
+
+}
+
+.blue__block{
+    text-align: center;
+    font-size: 21px;
+    
+}
+
+.blue__block2{
+    text-align: center;
+    font-size: 14px;
+    
+}
+
+.blue__block3{
+    display: inline;
+    margin-left: 85px;
+}
+
+.str{
+    margin-left: 10px;
+}
+
+
+
+.container__main{
+    background-color: #2378FC;
+    width: 100%;
+    height: 426px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    
+}
+
+
+
+
+.list{
+    
+    margin-top: 0;
+
+}
+
+
+.itemList{
+    
+    margin-top: 20px;
+    font-size: 16px;
+    list-style-type: none;
+    
+    color: white;
+    
+}
+
+#list{
+    color: orange;
+    
+}
+
